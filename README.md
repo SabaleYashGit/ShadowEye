@@ -57,11 +57,11 @@ gcp:
 ## Output
 Sample console/report style:
 ```
-✅ IAM user 'backup' is secure
+ IAM user 'backup' is secure
 ⚠️ EC2 i-0xabc has SSH open to public (0.0.0.0:22)
 ⚠️ S3 bucket 'user-data-prod' is public
-📩 Email alert sent to cloud-admin@example.com
-📝 Log stored at s3://cloudeye/logs/incident_2025_06_30.txt
+ Email alert sent to cloud-admin@example.com
+ Log stored at s3://cloudeye/logs/incident_2025_06_30.txt
 ```
 
 ## Notes
