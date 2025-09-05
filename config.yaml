@@ -1,0 +1,17 @@
+aws:
+  profile: default
+  region: ap-south-1
+  log_bucket: ""
+  log_prefix: "shadoweye/logs/"
+email:
+  enabled: false
+  smtp_host: smtp.gmail.com
+  smtp_port: 587
+  username: ""
+  password: ""
+  to: ["cloud-admin@example.com"]
+ssl:
+  hosts: ["example.com"]
+gcp:
+  enabled: false
+  project_id: ""
